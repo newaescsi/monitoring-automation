@@ -3,5 +3,5 @@ module "ec2_module" {
 
   vpc_id     = module.vpc_module.vpc_id
   subnet_ids = module.vpc_module.subnet_ids
-  key = "playground"
+  key = "allin"
 }
